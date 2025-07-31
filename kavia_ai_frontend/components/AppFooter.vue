@@ -3,7 +3,7 @@
     <div class="footer-top">
       <div class="footer-columns">
         <div class="footer-col footer-brand">
-          <span class="footer-logo"></span>
+          <img src="@/assets/kavia_logo.png" alt="Kavia AI Logo" class="footer-logo-img" />
           <div class="footer-company">
             <div class="company-name">KAVIA AI</div>
             <div class="company-desc">Kavia AI enables strategic management and rapid software delivery for teams—from preseed ideas to scale-ups and enterprise.</div>
@@ -89,14 +89,15 @@ const socialIcons = [
   margin-bottom: 12px;
 }
 .footer-brand { min-width: 230px;}
-.footer-logo {
+.footer-logo-img {
   width: 38px;
   height: 38px;
   display: block;
-  background: linear-gradient(135deg, #F26522 0%, #fa822a 100%);
   border-radius: 50%;
   margin-bottom: 10px;
   box-shadow: 0 2px 12px #F2652244;
+  object-fit: cover;
+  background: #fff;
 }
 .company-name {
   font-size: 1.1rem;

@@ -2,7 +2,7 @@
   <nav class="kavia-navbar">
     <div class="navbar-inner">
       <div class="navbar-left flex items-center gap-3">
-        <span class="kavia-logo-icon"></span>
+        <img src="@/assets/kavia_logo.png" alt="Kavia AI Logo" class="kavia-logo-img" />
         <span class="kavia-logo-text">KAVIA AI</span>
       </div>
       <ul class="navbar-center">
@@ -47,13 +47,13 @@
   justify-content: space-between;
   align-items: center;
 }
-.kavia-logo-icon {
-  display: inline-block;
+.kavia-logo-img {
   width: 28px;
   height: 28px;
   border-radius: 50%;
-  background: linear-gradient(135deg, #F26522 0%, #FA822A 100%);
   margin-right: 8px;
+  object-fit: cover;
+  background: #fff;
   box-shadow: 0 1px 8px #f265220d;
 }
 .kavia-logo-text {

@@ -4,6 +4,13 @@ export default defineNuxtConfig({
   css: [
     '~/assets/global.css'
   ],
+  app: {
+    head: {
+      link: [
+        { rel: 'icon', type: 'image/png', href: '/kavia_logo.png' }
+      ]
+    }
+  },
   nitro: {
     routeRules: {
       "/**": {
